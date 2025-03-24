@@ -18,11 +18,11 @@ In this section, we will walk through this sample to understand how is it built 
 
 ## Requirements
 
-* Java 8+ (JDK 1.8+)
+* Java 17+ (JDK 17+)
 
 ## Stacks
 
-* MyBatis Spring Boot Starter 2.2 (MyBatis 3.5, MyBatis Spring 2.0)
+* MyBatis Spring Boot Starter 2.3.2 (MyBatis 3.5, MyBatis Spring 2.0)
 * Spring Boot 2.7 (Spring Framework 5.3, Spring Security 5.7)
 * Thymeleaf 3.0
 * Hibernate Validator 6.2 (Bean Validation 2.0)
@@ -31,8 +31,8 @@ In this section, we will walk through this sample to understand how is it built 
 * Tomcat 9.0 (Embed Application Server)
 * Groovy 4.0 (Use multiple line string on MyBatis Mapper method)
 * Lombok 1.18
-* Selenide 6.5
-* Selenium 4.1
+* Selenide 7.7 (need JDK 17+)
+* Selenium 4.30
 * etc ...
 
 ## Run using Maven command

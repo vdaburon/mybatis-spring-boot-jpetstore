@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-       Copyright 2016-2022 the original author or authors.
+       Copyright 2016-2025 the original author or authors.
 
        Licensed under the Apache License, Version 2.0 (the "License");
        you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@
 
 	<groupId>com.kazuki43zoo.examples</groupId>
 	<artifactId>mybatis-spring-boot-jpetstore</artifactId>
-	<version>2.0.0-SNAPSHOT</version>
+	<version>2.1.0</version>
 	<packaging>jar</packaging>
 
 	<name>jpetstore on spring-boot + mybatis + thymeleaf</name>
@@ -54,26 +54,27 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.0</version>
+		<version>2.7.18</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
-		<mybatis-spring-boot-starter.version>2.2.2</mybatis-spring-boot-starter.version>
-		<thymeleaf.version>3.0.14.RELEASE</thymeleaf.version>
-		<selenium.version>4.1.0</selenium.version>
-		<groovy4.version>4.0.3</groovy4.version>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<mybatis-spring-boot-starter.version>2.3.2</mybatis-spring-boot-starter.version>
+		<thymeleaf.version>3.0.15.RELEASE</thymeleaf.version>
+
+		<selenium.version>4.30.0</selenium.version>
+		<groovy4.version>4.0.26</groovy4.version>
 		<!-- for test -->
-		<selenide.version>6.6.1</selenide.version>
+		<selenide.version>7.7.3</selenide.version>
 		<!-- for plugins -->
-		<license-maven-plugin.version>4.1</license-maven-plugin.version>
+		<license-maven-plugin.version>4.3</license-maven-plugin.version>
 		<coveralls-maven-plugin.version>4.3.0</coveralls-maven-plugin.version>
-		<jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version>
-		<owasp-dependency-check-plugin.version>7.1.0</owasp-dependency-check-plugin.version>
+		<jacoco-maven-plugin.version>0.8.12</jacoco-maven-plugin.version>
+		<owasp-dependency-check-plugin.version>9.1.0</owasp-dependency-check-plugin.version>
 	</properties>
 
 	<dependencies>
@@ -279,7 +280,7 @@
 			</plugin>
 		</plugins>
 	</build>
-
+<!--
 	<repositories>
 		<repository>
 			<id>sonatype-oss-snapshots</id>
@@ -322,5 +323,5 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-
+-->
 </project>
